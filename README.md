@@ -43,3 +43,48 @@ Please be aware of which parties will you be sending your private information to
 Unless you obsess over the display of accurate competitive programming ratings, or a simple solution on sharing your web resume with varying privacy settings, I think you should just use the templates from the Discord channel.
 
 Otherwise, feel free to use my template!
+
+
+# Changes
+
+Use 3 branchs to implement different versions of resume.
+- `main`: The common content for all version resumes.
+- `gh-pages`: The content for en_US version resume.
+- `gh-pages-zh`: The content for zh_CN version resume.
+
+## Actions
+
+### change common content
+
+```shell
+git switch main
+git reset --soft HEAD~1 # undo last custom commit if needed
+# do something
+git add .
+git commit -m "✨ Feature: update common content"
+```
+
+### change en_US content
+
+```shell
+git stash # stash the changes if needed
+git switch gh-pages
+git rebase main
+git stash pop # pop the stash if needed
+# do something
+git add .
+git commit -m "✨ Feature: update resume"
+git push -u origin gh-pages main [--force]
+```
+
+### change zh_CN content
+```shell
+git stash # stash the changes if needed
+git switch gh-pages-cn
+git rebase main
+git stash pop # pop the stash if needed
+# do something
+git add .
+git commit -m "✨ Feature: update resume"
+git push -u origin-cn gh-pages-cn:gh-pages [--force]
+```
