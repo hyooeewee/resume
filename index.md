@@ -2,13 +2,12 @@
 layout: cv
 title: Resume
 ---
-
-# Tong Hui Kang
+# Hughie Ngai
 
 <div id="contacts">
-<a id="personal-contacts">Singapore Citizen | hello (at) huikang.dev</a> 
+<a id="personal-contacts" href="mailto:hughie-ngai@outlook.com">hughie-ngai@outlook.com</a>
 </div>
-<div id="webaddress">
+<!-- <div id="webaddress">
 <a href="https://resume.huikang.dev?utm_source=resume"
 onclick="getOutboundLink('Resume'); return true;"
 target="_blank">
@@ -37,156 +36,62 @@ Codeforces</a> |
 onclick="getOutboundLink('Poe'); return true;"
 target="_blank">
 Poe</a>
-</div>
+</div> -->
 
-## Work Experience
+## 工作经历
 
-**Quora**
-`Nov 2021 - Present`<br>
-Machine Learning Engineer
+**中建-大成**
+`2022年6月 - 至今`
+技术中心工程师
 
-- Improved the recommendation systems for Quora feed and digest
-- Generated many Quora questions with ChatGPT
-- Made many tutorial bots on Poe, a marketplace of AI bots by Quora
-- Technical domains: python, C++, PrestoSQL, git, prompt engineering
+- 联同北科大开展校企横向课题，研发建筑全生命周期碳管理综合技术
+- 联同清华大学开展校企横向课题，研发工业厂房能源管理系统
+- 优化AI在建筑行业的应用，部署实施企业知识库
+- 主要成果：提前实习转正（同期前10%），授权专利15项，发表论文5篇，软件著作若干
 
-**Versafleet**
-`Dec 2020 - Jan 2021`<br>
-Data Science Intern
+**中建二局**
+`2021年6月 - 2021年9月`
+大商务部实习生 | 新工匠
 
-- Explored vehicle and driver features to improve the estimate of the time of arrival
-- Reviewed literature and prototyped a learning-based approach for vehicle routing problem
-- Technical domains: python or-tools pandas matplotlib, git, PostgreSQL
+- 通过海选并高质量完成考核任务
+- 建模统计新洲万达项目工程，优化计量流程技术创效
+- 主要成果：带领小组获得同期评比一等奖第一名、个人一等奖第一名，直通Offer & 北京户口
 
-**Teralytics**
-`Jan 2020 - Nov 2020`<br>
-Data Science Intern
+## 教育经历
 
-- Designed and implemented metrics to illustrate the accuracy of proposed methods
-- Optimized and parallelised routine calculation pipelines with PySpark
-- Collaborated on repositories through a code review process with supervisors
-- Technical domains: python pandas matplotlib pyspark, git, unit tests, bash
+**北京科技大学**
+`2024年9月 - 至今（预计2026年9月毕业）`
 
-**2359 Media**
-`Dec 2018 - Sep 2019`<br>
- Software Engineer Intern
+- 工程管理硕士学位（预计）
+- 学生工作：专硕联合会副秘书长 & 班长，负责日常管理和维护校园兴趣社群、开展联络 服务校友工作，先后组织与各大院校的交流合作项目 10 余次，服务同学 300 余人次
+- 主修课程：定量决策与优化技术、Python 商务数据分析、人工智能基础与应 用、国际商务管理、管理统计学、企业风险管理
+- 绩点 `<a id="ustb-gpa">` 3.80/4.00 `</a>`
 
-- Delivered an API for chatbot builders to provide logic to the chatbot without writing code
-- Developed a file conversion tool to visualise the chatbot content in a spreadsheet
-- Technical domains: nodejs Express, Azure Functions, python
+**哈尔滨工程大学**
+`2018年9月 - 2022年6月`
 
+- 工学学士学位
+- 社团活动：参加“E 唯协会”、“航模社”社团，学习并熟悉 STM32 单片机及飞行器设计控制理论
+- 绩点：`<a id="heu-gpa">` 3.00/4.00 `</a>`
 
-## Education
+## 技能奖项
 
-**Singapore University of Technology and Design**
-`May 2017 - Aug 2021`
+**奖项荣誉**
 
-- Bachelors of Engineering with Honours
-- Engineering Systems and Design, Operations Research Track with Computer Science Minor
-- Grade Point Average <a id="sutd-gpa">> 4.00/5.00</a>
-
-**Singapore Management University**
-`May 2017 - Aug 2021`
-
-- Bachelor of Business Management
-- Grade Point Average <a id="smu-gpa">> 3.00/4.00</a>
+- `中国国际大学生创新创业竞赛二等奖`：担任团队技术负责人，提出了融合 AIoT 的创新贷后管理方案，助力小微企业 盘活存量资产。
+- `“摇篮杯”大学生创新创业竞赛华为产业命题二等奖`：在第二十六届比赛中，担任团队技术负责人，主导设计了基于 MindSpore 架 构 YOLO v5s 的 SLR 系统架构并实现，通过“识别-补纠-转译”实现聋哑人与普通人的双向沟通。
+- `国际混凝土龙舟大赛二等奖`：在第三届比赛中，担任控制逻辑设计及代码实现技术负责人，策划了行动路 线与负荷方案并编码实现，高效达成赛事目标。
 
 
-## Activities
+**资格证书**
 
-**SUTD Robotics Club**
-`May 2017 - March 2020`<br>
-Committee Member, SAUVC participant
+| 证书名称                                                | 颁发机构                                 | 颁发时间       |
+| ------------------------------------------------------- | ---------------------------------------- | -------------- |
+| Sustainable Investing Certificate                       | CFA Institute                            | 2025年6月26日  |
+| LEED AP Building Design + Construction (LEED AP BD + C) | GREEN BUSINESS CERTIFICATION INC. (GBCI) | 2024年11月21日 |
+| WELL Accredited Professional (WELL AP)                  | GREEN BUSINESS CERTIFICATION INC. (GBCI) | 2024年8月26日  |
+| Business English Certificate                            | Cambridge Assessment English             | 2023年11月25日 |
 
-- Facilitated Arduino workshops for more than 100 participants
-- Engineered hydrophones to locate pingers for SAUVC competition
+## 兴趣爱好
 
-
-
-<div style="page-break-after: always;"></div>
-
-## Contests
-
-### Algorithms
-
-**Codeforces** – rating <a id="rating">1599</a> <strong><a href="https://codeforces.com/profile/huikang" id="rank">specialist</a></strong>, rank <a id="placing">15000</a>, over 110 contests
-`Present`
-
-**Facebook** Hack 2020 – Coding Challenge Top Team, Overall 2nd Team
-`Oct 2020`
-
-**Credit Suisse** CodeIT Suisse 2019 – Singapore 3rd Team
-`Sep 2019`
-
-
-### Data Science
-
-**Shopee** Code League 2020
-`Jun 2020 - Aug 2020`
-
-- Top 70 among 400+ groups for each data science and data analytics component
-- Awarded 5 Kaggle Bronze medals from notebooks shared with the community
-
-
-**Temasek** HyperHack Datathon 2019 – Winning Team out of 12 teams
-`Nov 2019`
-- Analysed synthesised personal data in a secure environment
-- Pitched the value of data collaboration to a panel of judges
-
-
-**Bank of Singapore** CodeBOSS 2019 – 3rd team
-`Oct 2019`
-- Responsible for the data science component in the team
-- Predicted housing prices based on given and engineered features
-
-
-**EY** NextWave Data Science Challenge - local 3rd team
-`Apr 2019`
-- Tasked to predict whether a device ends up in a specific area
-- Presented the solution and journey to EY data scientists in local finals
-
-
-**Shopee** National Data Science Challenge 2019 – LB 16th/250, Merit Team
-`Mar 2019`
-- Tasked to determine the category of a product given its image and title
-- Developed and shared a baseline NLP model adopted by 200+ other participants
-
-
-## Academic Projects
-
-**40.014 Engineering Systems Architecture**
-`Feb 2020 - Apr 2020`<br>
-HealthOrWealth - a card game to teach policymaking
-- Delivered a game to let players experience tradeoffs faced by policymakers in a pandemic
-- Prototyped an RShiny companion to assist the game
-
-
-**40.012 Manufacturing and Service Operations**
-`Feb 2020 - Apr 2020`<br>
-Inventory Management for Pharmaforte
-- Modelled demand distribution from product data and employed (Q,r) inventory model
-- Project writeup is featured in a school biannual newsletter
-
-
-**40.011 Data and Business Analytics**
-`Aug 2019 - Dec 2019`<br>
-Population Density Prediction for Teralytics
-
-- Implemented algorithms to predict population density distribution 10 mins in the future
-- Improved the mean squared error by 50% from the baseline
-
-
-**40.015 Simulation Modelling and Analysis**
-`Aug 2019 - Dec 2019`<br>
-Housing Prices Simulation
-- Simulated housing prices with individual agents and houses on a grid
-- Reproduced some characteristics of the housing market such as inflation and homelessness
-- Project video is featured in the end-of-term showcase
-
-
-**3.007 Introduction to Design**
-`Aug 2017 - Dec 2017`<br>
-Automatic Anti-Afterimage Glasses 
-- Prototyped eyeglasses that darken in response to incident headlights to prevent afterimages
-- Conducted comprehensive user tests in multiple live environments
-- Project is featured in the university open house and library exhibitions
+- `羽毛球`、`乒乓球`
