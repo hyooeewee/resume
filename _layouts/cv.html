@@ -38,13 +38,13 @@
 
     <!-- Stylesheets -->
     <link
-      href="media/{{ site.resume-style }}-screen.css"
+      href="{{ site.baseurl }}/media/{{ site.resume-style }}-screen.css"
       type="text/css"
       rel="stylesheet"
       media="screen"
     />
     <link
-      href="media/{{ site.resume-style }}-print.css"
+      href="{{ site.baseurl }}/media/{{ site.resume-style }}-print.css"
       type="text/css"
       rel="stylesheet"
       media="print"
@@ -54,14 +54,14 @@
     <meta name="thumbnail" content="https://i.imgur.com/lHhRvK6.png" />
   </head>
   <body>
-    <div id="lang-switcher">
-      {% if page.lang == 'en' %}
-      <a href="index.html">中文</a>
-      {% else %}
-      <a href="index-en.html">English</a>
-      {% endif %}
-    </div>
     <div id="main">
+      <div id="lang-switcher">
+        {% if page.lang == 'en' %}
+        <a href="{{ site.baseurl }}/index.html">中文</a>
+        {% else %}
+        <a href="{{ site.baseurl }}/index-en.html">English</a>
+        {% endif %}
+      </div>
       <div id="content">{{ content }}</div>
     </div>
 
