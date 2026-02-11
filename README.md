@@ -1,12 +1,12 @@
 # Resume
 
-This is my resume change from [tonghuikang/resume](https://github.com/tonghuikang/resume) .
+This is my resume modified from [tonghuikang/resume](https://github.com/tonghuikang/resume) .
 
 ## Usage
 
 ```bash
 # Step 1: Fork from my fork
-git clone https://github.com/tonghuikang/resume.git
+git clone https://github.com/hyooeewee/resume.git
 cd resume
 # Step 2: Edit index.md
 vim index.md
