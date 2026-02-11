@@ -1,0 +1,29 @@
+name: Sync main to gh-pages branches
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Git user
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+      - name: Sync to gh-pages (English)
+        run: |
+          git checkout main
+          git branch -f gh-pages main
+          git push origin gh-pages --force
