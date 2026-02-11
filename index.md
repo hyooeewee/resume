@@ -3,41 +3,19 @@ layout: cv
 title: Resume
 lang: cn
 ---
+
 # Hughie Ngai
 
 <div id="contacts">
-<a id="personal-contacts" href="mailto:hughie-ngai@outlook.com">hughie-ngai@outlook.com</a>
+    <!-- <a id="personal-contacts" href="mailto:hughie-ngai@outlook.com">hughie-ngai@outlook.com</a> -->
+    <a id="personal-contacts">hughie-ngai(at)outlook.com</a>
 </div>
-<!-- <div id="webaddress">
-<a href="https://resume.huikang.dev?utm_source=resume"
-onclick="getOutboundLink('Resume'); return true;"
-target="_blank">
-Resume</a> |
-<a href="https://www.linkedin.com/in/huikang-tong/"
-onclick="getOutboundLink('LinkedIn'); return true;"
-target="_blank">
-LinkedIn</a> |
-<a href="https://blog.huikang.dev?utm_source=resume"
-onclick="getOutboundLink('Resume'); return true;"
-target="_blank">
-Blog</a> |
-<a href="https://github.com/tonghuikang/"
-onclick="getOutboundLink('Github'); return true;"
-target="_blank">
-Github</a> |
-<a href="https://www.kaggle.com/huikang/"
-onclick="getOutboundLink('Kaggle'); return true;"
-target="_blank">
-Kaggle</a> |
-<a href="https://codeforces.com/profile/huikang/"
-onclick="getOutboundLink('Codeforces'); return true;"
-target="_blank">
-Codeforces</a> |
-<a href="https://poe.com/huikang/"
-onclick="getOutboundLink('Poe'); return true;"
-target="_blank">
-Poe</a>
-</div> -->
+<div id="webaddress">
+    <a href="https://resume.godot.run/" onclick="getOutboundLink('Resume'); return true;" target="_blank">
+        Resume</a> |
+    <a href="https://github.com/hyooeewee/" onclick="getOutboundLink('Github'); return true;" target="_blank">
+        Github</a>
+</div>
 
 ## 工作经历
 
@@ -66,14 +44,14 @@ Poe</a>
 - 工程管理硕士学位（预计）
 - 学生工作：专硕联合会副秘书长 & 班长，负责日常管理和维护校园兴趣社群、开展联络 服务校友工作，先后组织与各大院校的交流合作项目 10 余次，服务同学 300 余人次
 - 主修课程：定量决策与优化技术、Python 商务数据分析、人工智能基础与应 用、国际商务管理、管理统计学、企业风险管理
-- 绩点 `<a id="ustb-gpa">` 3.80/4.00 `</a>`
+- 绩点 <a id="ustb-gpa"> 3.80/4.00 </a>
 
 **哈尔滨工程大学**
 `2018年9月 - 2022年6月`
 
 - 工学学士学位
 - 社团活动：参加“E 唯协会”、“航模社”社团，学习并熟悉 STM32 单片机及飞行器设计控制理论
-- 绩点：`<a id="heu-gpa">` 3.00/4.00 `</a>`
+- 绩点：<a id="heu-gpa"> 3.00/4.00 </a>
 
 ## 技能奖项
 
@@ -83,16 +61,51 @@ Poe</a>
 - `“摇篮杯”大学生创新创业竞赛华为产业命题二等奖`：在第二十六届比赛中，担任团队技术负责人，主导设计了基于 MindSpore 架 构 YOLO v5s 的 SLR 系统架构并实现，通过“识别-补纠-转译”实现聋哑人与普通人的双向沟通。
 - `国际混凝土龙舟大赛二等奖`：在第三届比赛中，担任控制逻辑设计及代码实现技术负责人，策划了行动路 线与负荷方案并编码实现，高效达成赛事目标。
 
-
 **资格证书**
 
-| 证书名称                                                | 颁发机构                                 | 颁发时间       |
-| ------------------------------------------------------- | ---------------------------------------- | -------------- |
-| Sustainable Investing Certificate                       | CFA Institute                            | 2025年6月26日  |
-| LEED AP Building Design + Construction (LEED AP BD + C) | GREEN BUSINESS CERTIFICATION INC. (GBCI) | 2024年11月21日 |
-| WELL Accredited Professional (WELL AP)                  | GREEN BUSINESS CERTIFICATION INC. (GBCI) | 2024年8月26日  |
-| Business English Certificate                            | Cambridge Assessment English             | 2023年11月25日 |
-
-## 兴趣爱好
-
-- `羽毛球`、`乒乓球`
+<table>
+    <thead>
+        <tr>
+            <th>证书名称</th>
+            <th>颁发机构</th>
+            <th>颁发时间</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <a href="https://credentials.cfainstitute.org/a5a620a7-76d1-4a68-8bd6-f31ec1428d8b#acc.sFeaGVSM/"
+                    onclick="getOutboundLink(''); return true;" target="_blank">
+                    Sustainable Investing Certificate
+                </a>
+            </td>
+            <td>CFA Institute</td>
+            <td>2025年6月26日</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.usgbc.org/people/hao-wei/0011635286/"
+                    onclick="getOutboundLink(''); return true;" target="_blank">
+                    LEED AP Building Design + Construction (LEED AP BD + C)
+                </a>
+            </td>
+            <td>GREEN BUSINESS CERTIFICATION INC. (GBCI)</td>
+            <td>2024年11月21日</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://account.wellcertified.com/directories/users/hao-42/"
+                    onclick="getOutboundLink(''); return true;" target="_blank">
+                    WELL Accredited Professional (WELL AP)
+                </a>
+            </td>
+            <td>GREEN BUSINESS CERTIFICATION INC. (GBCI)</td>
+            <td>2024年8月26日</td>
+        </tr>
+        <tr>
+            <td>Business English Certificate</td>
+            <td>Cambridge Assessment English</td>
+            <td>2023年11月25日</td>
+        </tr>
+    </tbody>
+</table>
