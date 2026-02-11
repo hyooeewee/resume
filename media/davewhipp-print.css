@@ -193,5 +193,10 @@ strong {
 	visibility: hidden;
 }
 
+#lang-switcher {
+	display: none;
+	visibility: hidden;
+}
+
 
 

@@ -188,6 +188,25 @@ strong {
 	display: none;
 }
 
+#lang-switcher {
+	position: fixed;
+	top: 1em;
+	right: 1em;
+	font-size: 0.9em;
+}
+
+#lang-switcher a {
+	background-color: #bc412b;
+	color: #fff;
+	padding: 0.3em 0.8em;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+#lang-switcher a:hover {
+	background-color: #a33620;
+}
+
 
 @media only screen and (max-width: 960px) {
 	h1,h2,h3,code,p,p code,#webaddress,ul {

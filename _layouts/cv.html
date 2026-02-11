@@ -38,6 +38,13 @@
 
 </head>
 <body>
+  <div id="lang-switcher">
+    {% if page.lang == 'en' %}
+      <a href="index.html">中文</a>
+    {% else %}
+      <a href="index-en.html">English</a>
+    {% endif %}
+  </div>
   <div id="main">
     <div id="content">
       {{ content }}
